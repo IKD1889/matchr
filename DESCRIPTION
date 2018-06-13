@@ -1,0 +1,18 @@
+Package: matchr
+Type: Package
+Title: Test whether two datasets is matching or not
+Version: 0.1.0
+Date: 2018-6-13
+Author: Tatsuya Ikeda
+Maintainer: Tatsuya Ikeda <t.ikeda005@gmail.com>
+Description: Test whether two datasets is matching or not.
+    'matching_test' function return participant and variable name when the datasets are not matching.
+    And the dataset which is assigned 'data2' is sorted if the arrange of 'id2' is different from 'id1'.
+    This package support **numeric or integer only**. A factor type variable will be supported later update.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  magrittr
+RoxygenNote: 6.0.1
