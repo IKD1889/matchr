@@ -6,7 +6,7 @@
 #' @param id1 data1's id. This parameter should be integer.
 #' @param id2 data2's id. This parameter should be integer.
 #'
-#' @return Output on console about missmatch variable and participant.
+#' @return Output on the console about missmatch variable and participant.
 #'
 #' @examples
 #' n <- 20
